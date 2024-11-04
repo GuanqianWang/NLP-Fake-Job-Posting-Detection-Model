@@ -8,8 +8,7 @@ The model has decided on the following categorical features:
 * required_education
 * State
 * Industry
-* function
-\
+* function\
 The model used the following features as text features:
 * company_profile
 * description
