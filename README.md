@@ -9,6 +9,10 @@ The model has decided on the following categorical features:
 * State
 * Industry
 * function
+The model used the following features as text features:
+* company_profile
+* description
+* benefits
 # The overall workflow
 The overall process of data loading, train test split, tokenization, and model fitting is provided by this file:
 [Overall workflow showcase](https://github.com/GuanqianWang/NLP-Fake-Job-Posting-Detection-Model/blob/main/Workflow_showcase.ipynb)
