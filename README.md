@@ -21,4 +21,15 @@ The text features are tokenized using the following methods:
 * Open AI embedding models (under testing)
 # The overall workflow
 The overall process of data loading, train test split, tokenization, and model fitting is provided by this file:
-[Overall workflow showcase](https://github.com/GuanqianWang/NLP-Fake-Job-Posting-Detection-Model/blob/main/Workflow_showcase.ipynb)
+[Overall workflow showcase](https://github.com/GuanqianWang/NLP-Fake-Job-Posting-Detection-Model/blob/main/Workflow_showcase.ipynb). 
+Under this workflow, using xgboost model, we have achieved the following precision, recall, and F1 score for the testing set:
+Test Set Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      1981
+           1       0.94      0.75      0.83       151
+
+    accuracy                           0.98      2132
+   macro avg       0.96      0.87      0.91      2132
+weighted avg       0.98      0.98      0.98      2132
+
