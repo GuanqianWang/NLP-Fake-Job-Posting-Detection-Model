@@ -9,7 +9,7 @@ The model has decided on the following categorical features:
 * State
 * Industry
 * function\
-The model used the following features as text features:
+   The model used the following features as text features:
 * company_profile
 * description
 * benefits
